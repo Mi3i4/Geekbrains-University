@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.photo {
+    width: 1500px;
+    height: 1100px;
+    /*margin-left: 300px;*/
+    margin-top: 50px;
+}
+
+.bigphoto {
+    background-color:azure;
+    width: 1200px;
+    height: 750px;
+    border: solid 1px black;
+    margin-left: 149px;
+    margin-bottom: 20px;
+}
+
+.smallgroup {
+    display: flex;
+    justify-content: center;
+}
+
+.smallphoto {
+    
+    width: 400px;
+    height: 250px;
+    border: solid 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
