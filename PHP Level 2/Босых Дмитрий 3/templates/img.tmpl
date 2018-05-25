@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/normalize.css">
+    <title>Gallery</title>
+</head>
+<main>
+ <div id="container"></div>
+    <header></header>
+    <div id="content">
+        <div id="left_side"></div>
+            <div id="center">
+                {% for item in offers %}
+                    <div id="offers">
+                        <h2>{{ item.name }}</h2>
+                        <a href="../public/big_img.php?id={{ item.id }}" target="_blank"><img src="{{ item.img_path }}" width="260px" height="170px">
+                        </a>
+                        <h3>{{ item.description }}</h3>
+                    </div>
+                {% endfor %}
+            </div>
+        <div id="right_side"></div>
+    </div>
+    <footer>{% include 'footer.tmpl' %}</footer>
+</main>
+</html>

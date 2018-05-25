@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 100%;
+    display: block;
+    padding: 0;
+}
+
+header{
+    background-color: #EBEBE5;
+    height: 70px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: nowrap;
+    border:1px solid #EBEBE5;
+    padding: 5%;
+}
+
+#left_side{
+    width: 15%;
+}
+
+#right_side{
+    width:15%;
+}
+
+#center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 14%;
+}
+
+#center_offer_page {
+    width: 70%;
+    text-align: center;
+}
+
+#center_offer_page h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: PT Sans Caption;
+    color: #2F4F4F;
+    padding: 2%;
+    background-color: white;
+}
+
+#center_offer_page h4{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: PT Sans Caption;
+    color: #2F4F4F;
+    padding: 2%;
+}
+
+#big_img {
+    width: 80%;
+    height: 80%;
+    margin: 2%;
+}
+
+#offers {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 300px;
+    width: 300px;
+    border: 2px #EBEBE5 solid;
+    border-radius: 10px;
+}
+
+#offers:hover {
+    opacity: 0.6;
+}
+
+#offers a{
+    text-decoration: none;
+}
+
+#offers h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: PT Sans Caption;
+    color: #2F4F4F;
+    padding: 2%;
+    background-color: white;
+}
+
+#offers h3{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: PT Sans Caption;
+    color: #2F4F4F;
+    padding: 2%;
+}
+
+#back {
+    display: block;
+    width: 270px;
+    height: 30px;
+    text-decoration: none;
+    font-family: PT Sans Caption;
+    text-align: center;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: #2F4F4F;
+    border: 1px #EBEBE5 solid;
+    border-radius: 20px;
+    background-color: #E6E6E0;
+}
+
+#back:hover {
+    opacity: 0.6;
+}
+
+footer {
+    flex: 0 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: PT Sans Caption;
+    width: 100%;
+    height: 111px;
+    background-color: #999999;
+    text-align: center;
+    padding: 0.5%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #E6E6E0;
+}
+
+footer div {
+    margin-top:3%
+}
