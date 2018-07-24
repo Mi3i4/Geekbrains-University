@@ -52,7 +52,7 @@ class NoteController extends Controller
     {
         $searchModel = new NoteSearch();
 
-//        $dataProvider = $searchModel->getEvent();
+        $dataProvider = $searchModel->getEvent();
 
 //         \Yii::$app->cache->set('key',time());
 
@@ -68,11 +68,11 @@ class NoteController extends Controller
 //        \var_dump($cache->get('time'),time());exit;
 //        \var_dump($searchModel->getEvent());exit;
 
-        $dataProvider = $searchModel->search([
-            'NoteSearch' => [
-                'creator' => \Yii::$app->user->id,
-            ],
-        ]);
+//        $dataProvider = $searchModel->search([
+//            'NoteSearch' => [
+//                'creator' => \Yii::$app->user->id,
+//            ],
+//        ]);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
